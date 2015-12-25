@@ -9,7 +9,6 @@
 	<b>Online Learning</b> <br />
 	- where the data set is given to the algorithm one example at a time. This happens when we have stream­ ing data that the algorithm has to process 'on the run'. For instance, when the movie recommendation system discussed in Section 1.1 is deployed, on­ line learning can process new ratings from current users and movies. Online learning is also useful when we have limitations on computing and storage that preclude us from processing the whole data as a batch. <br />
 </p>
-<br />
 <p>
 	When the training data does not explicitly contain the correct output for each input, we are no longer in a supervised learning setting.
 </p>
