@@ -12,6 +12,6 @@ The feasibility of learning is thus split into two questions:<br/>
 
 #### Training versus Testing
 
-The out-of-sample error Eout measures how well our training on D has gener­alized to data that we have not seen before. Eout is based on the performance over the entire input space X. Intuitively, if we want to estimate the value of Eout using a sample of data points, these points must be 'fresh' test points that have not been used for training. \
-The in sample error Ein, by contrast, is based on data points that have been used for training. It expressly measures training performance, similar to your performance on the practice problems that you got before the final exam. Such performance has the benefit of looking at the solutions and adjusting accordingly, and may not reflect the ultimate performance in a real test. \
+The out-of-sample error Eout measures how well our training on D has gener­alized to data that we have not seen before. Eout is based on the performance over the entire input space X. Intuitively, if we want to estimate the value of Eout using a sample of data points, these points must be 'fresh' test points that have not been used for training._
+The in sample error Ein, by contrast, is based on data points that have been used for training. It expressly measures training performance, similar to your performance on the practice problems that you got before the final exam. Such performance has the benefit of looking at the solutions and adjusting accordingly, and may not reflect the ultimate performance in a real test._
 <!-- End Notes Day 2 -->
