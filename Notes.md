@@ -25,3 +25,28 @@
 	Unsupervised learning can be viewed as the task of spontaneously finding patterns and structure in input data. For instance, if our task is to categorize a set of books into topics, and we only use general properties of the various books, we can identify books that have similar prop­erties and put them together in one category, without naming that category. <br />
 	Indeed, unsupervised learning can be a precursor to supervised learning. In other cases, it is a stand-alone technique.
 </p>
+#### Training versus Testing
+
+The out-of-sample error Eout measures how well our training on D has gener­alized to data that we have not seen before. Eout is based on the performance over the entire input space X. Intuitively, if we want to estimate the value of Eout using a sample of data points, these points must be 'fresh' test points that have not been used for training. <br />
+The in sample error Ein, by contrast, is based on data points that have been used for training. It expressly measures training performance, similar to your performance on the practice problems that you got before the final exam. Such performance has the benefit of looking at the solutions and adjusting accordingly, and may not reflect the ultimate performance in a real test. <br />
+
+<!-- End Notes Day 2 -->
+#### Linear Regression
+<p>
+	Recall that in *regression problems*, we are taking input variables and trying to map the output onto a *continuous* expected result function. <br />
+
+	Univariate linear regression is used when you want to predict a single output value from a single input value. We're doing supervised learning here, so that means we already have an idea what the input/output cause and effect should be.
+</p>
+
+#### Cost function 
+<p>
+	We can measure the accuracy of our hypothesis function by using a cost function. This takes an average (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's compared to the actual output y's.
+</p>
+
+#### Gradient Descent
+<p>
+	So we have our hypothesis function and we have a way of measuring how accurate it is. Now what we need is a way to automatically improve our hypothesis function. That's where gradient descent comes in. <br />
+	Intuitively, this could be thought of as: <br />
+	repeat until convergence:<br />
+	θj:=θj−α[Slope of tangent aka derivative] <br />
+</p>
